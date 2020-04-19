@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 public class HomeContoller {
     @GetMapping("/")
     public String sayHelloGet(){
-        return "Hello world from get";
+        return "Hello world from get updated";
     }
     @PostMapping("/")
     public String sayHelloPost(){
